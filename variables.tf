@@ -29,5 +29,5 @@ variable "enable_vpn_gateway" {
 
 variable "remote_user_addr" {
   type = string
-  default = "0.0.0.0/0"
+  default = "11.0.0.0/24"
 }
